@@ -13,26 +13,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-05T23:25:35.993+01:00
-  initializedAtString: 2020-12-05T23:04:30.356+01:00
+  lastUpdatedAtString: 2020-12-05T23:34:22.368+01:00
+  initializedAtString: 2020-12-05T23:34:22.339+01:00
   localBranches:
   - name: master
-    tracking: 
-  remoteBranches: []
-  remotes: []
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/migouche/Pootis-Runner-Dev.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
     - master
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/migouche/Pootis-Runner-Dev.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/migouche/Pootis-Runner-Dev.git
+        trackingBranch: 
   configRemotes:
-    keys: []
-    values: []
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/migouche/Pootis-Runner-Dev.git
