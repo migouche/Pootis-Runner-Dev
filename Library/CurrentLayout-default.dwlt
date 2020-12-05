@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: GitHub
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 592}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 991
-  m_MinSize: {x: 875, y: 592}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 941
-  m_MinSize: {x: 1103, y: 392}
-  m_MaxSize: {x: 12003, y: 8042}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 1166
+  controlID: 102
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1579
     height: 941
-  m_MinSize: {x: 1002, y: 392}
-  m_MaxSize: {x: 8002, y: 8042}
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 1241
+  controlID: 103
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1579
     height: 620
-  m_MinSize: {x: 1002, y: 271}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 1242
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 272
     height: 620
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -218,9 +218,9 @@ MonoBehaviour:
     y: 0
     width: 1307
     height: 620
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 15}
@@ -228,8 +228,8 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -249,14 +249,14 @@ MonoBehaviour:
     y: 620
     width: 1579
     height: 321
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,20 +317,31 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 1
-  activeTab: 1
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2020-12-05T22:59:01.965+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 8
   branchesView:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -339,7 +350,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -354,8 +385,19 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -364,12 +406,22 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
+      nodes:
+      - path: Remote branches
+        label: Remote branches
         level: 0
-        isFolder: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -379,16 +431,16 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:25:35.993+01:00
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:26:31.909+01:00
+      cacheType: 1
     currentBranch:
-      name: 
+      name: master
       tracking: 
     currentRemote:
       name: 
@@ -398,7 +450,9 @@ MonoBehaviour:
       host: 
       function: 0
       token: 
-    localBranches: []
+    localBranches:
+    - name: master
+      tracking: 
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
@@ -406,15 +460,72 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - Library
+        - Library/gfu
+        - Library/gfu/cache
+        values:
+        - path: Library
+          label: Library
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Library/gfu
+          label: gfu
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Library/gfu/cache
+          label: cache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -424,7 +535,223 @@ MonoBehaviour:
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library
+        label: Library
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library/gfu
+        label: gfu
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library/gfu/cache
+        label: cache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Library/gfu/cache/branches.yaml
+        label: branches.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/branches.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/branches.yaml
+          projectPath: Library/gfu/cache/branches.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/gfu/cache/gitlog.yaml
+        label: gitlog.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitlog.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitlog.yaml
+          projectPath: Library/gfu/cache/gitlog.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/gfu/cache/gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitstatusentries.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitstatusentries.yaml
+          projectPath: Library/gfu/cache/gitstatusentries.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/gfu/cache/gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gittrackingstatus.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gittrackingstatus.yaml
+          projectPath: Library/gfu/cache/gittrackingstatus.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/gfu/cache/gituser.yaml
+        label: gituser.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gituser.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gituser.yaml
+          projectPath: Library/gfu/cache/gituser.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/gfu/cache/repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/repoinfo.yaml
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/repoinfo.yaml
+          projectPath: Library/gfu/cache/repoinfo.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/SourceAssetDB
+        label: SourceAssetDB
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/SourceAssetDB
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB
+          projectPath: Library/SourceAssetDB
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Library/SourceAssetDB-lock
+        label: SourceAssetDB-lock
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/SourceAssetDB-lock
+          fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB-lock
+          projectPath: Library/SourceAssetDB-lock
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -444,28 +771,76 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/SourceAssetDB
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/SourceAssetDB-lock
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB-lock
+      projectPath: Library/SourceAssetDB-lock
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 8 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:26:31.909+01:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:27:46.209+01:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries: []
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:01:24.370+01:00
+      cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:01:24.567+01:00
+      cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries: []
@@ -531,11 +906,11 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:31:16.826+01:00
+      cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
@@ -545,7 +920,7 @@ MonoBehaviour:
       newGitEmail: migouche.g.r@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2020-12-05T22:59:01.965+01:00
+        updatedTimeString: 2020-12-05T23:31:17.286+01:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -572,19 +947,67 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Jan 0001, 01:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:26:31.909+01:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-12-05T23:27:46.209+01:00
+      cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
-    currentUsername: 
+    gitStatusEntries:
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/SourceAssetDB
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Library/SourceAssetDB-lock
+      fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB-lock
+      projectPath: Library/SourceAssetDB-lock
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    currentUsername: migouche
     unlockFileMenuContent:
       m_Text: Release Lock
       m_Image: {fileID: 0}
@@ -595,14 +1018,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 0
   currentRemoteName: 
-  currentBranch: 
+  currentBranch: master
   currentRemoteUrl: No remote configured
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 0
   currentBranchContent:
-    m_Text: 
+    m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -610,14 +1033,14 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Add a remote in the Settings tab
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2020-12-05T23:31:16.826+01:00
+    cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2020-12-05T23:27:46.261+01:00
+    cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2020-12-05T23:27:46.209+01:00
+    cacheType: 6
   pullButtonContent:
     m_Text: Pull
     m_Image: {fileID: 0}
@@ -636,10 +1059,10 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0.9
-  appManagerProgressMessage: Failed to initialize repository
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
   connections: []
-  primaryConnectionUsername: 
+  primaryConnectionUsername: migouche
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -696,7 +1119,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -709,7 +1132,7 @@ MonoBehaviour:
       y: 21
       width: 1305
       height: 578
-    m_Scale: {x: 0.53518516, y: 0.53518516}
+    m_Scale: {x: 0.5546296, y: 0.55462956}
     m_Translation: {x: 652.5, y: 289}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -717,12 +1140,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1219.2042
-      y: -540
-      width: 2438.4084
-      height: 1080
+      x: -1176.4608
+      y: -521.0685
+      width: 2352.9216
+      height: 1042.137
     m_MinimalGUI: 1
-  m_defaultScale: 0.53518516
+  m_defaultScale: 0.5546296
   m_LastWindowPixelSize: {x: 1305, y: 599}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -756,10 +1179,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 629.86163}
-      m_SelectedIDs: b2bdffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8ac5ffffa6c5ffffaac5ffffb2c5ffffb6c5ffffbec5ffffc2c5ffffcac5ffffcec5ffffd6c5ffffdac5ffffdec5ffffe2c5ffffe6c5ffffeac5ffff02c6ffff06c6ffff0ec6ffff12c6ffff1ac6ffff1ec6ffff26c6ffff2ac6ffff32c6ffff36c6ffff3ac6ffff3ec6ffff42c6ffff46c6ffff4ac6ffff4ec6ffff52c6ffff56c6ffff5ec6ffff62c6ffff66c6ffff6ec6ffff72c6ffff76c6ffff7ac6ffff80c6ffff8ac6ffffeaf9ffff60fbffff
+      m_ExpandedIDs: 60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -811,15 +1234,15 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 3e26f94bf02d2910988fab28a3ac36aa
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
-  m_SceneIsLit: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
   m_SceneLighting: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -38.741295, y: -9.312431, z: 8.641411}
+    m_Target: {x: 3.8505473, y: 1.6589832, z: 0.74896526}
     speed: 2
     m_Value: {x: -38.741295, y: -9.312431, z: 8.641411}
   m_RenderMode: 0
@@ -831,12 +1254,12 @@ MonoBehaviour:
   m_DoValidateTrueMetals: 0
   m_ExposureSliderValue: 0
   m_SceneViewState:
-    showFog: 0
+    showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 0
-    showImageEffects: 0
-    showParticleSystems: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
     showVisualEffectGraphs: 1
     m_FxEnabled: 1
   m_Grid:
@@ -868,11 +1291,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.042190958, y: 0.9484251, z: -0.27972996, w: -0.14304847}
+    m_Target: {x: -0.03969574, y: 0.9593848, z: -0.17488569, w: -0.21776195}
     speed: 2
     m_Value: {x: -0.042190917, y: 0.9484242, z: -0.2797297, w: -0.14304833}
   m_Size:
-    m_Target: 44.53649
+    m_Target: 0.8991012
     speed: 2
     m_Value: 44.53649
   m_Ortho:
@@ -1058,9 +1481,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 40}
-    m_SelectedIDs: b6420000
-    m_LastClickedID: 17078
-    m_ExpandedIDs: 0000000094400000984000009c4000002e420000b442000000ca9a3b
+    m_SelectedIDs: 6a460000
+    m_LastClickedID: 18026
+    m_ExpandedIDs: 000000006c4500005c4600006c46000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1088,7 +1511,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009440000000ca9a3b
+    m_ExpandedIDs: 000000006c450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1113,9 +1536,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b2bdffff
-    m_LastClickedInstanceID: -16974
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a827000068270000000000001a430000be420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1140,7 +1563,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 71.5}
+    m_ScrollPosition: {x: 0, y: 18}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
