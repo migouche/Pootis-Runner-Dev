@@ -13,33 +13,281 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-05T23:36:50.350+01:00
-  initializedAtString: 2020-12-05T23:32:42.709+01:00
+  lastUpdatedAtString: 2020-12-07T10:35:23.379+01:00
+  initializedAtString: 2020-12-07T09:56:46.558+01:00
   entries:
+  - path: .vs/Pootis Runner/xs/UserPrefs.xml
+    fullPath: /home/miguel/unity projects/Pootis Runner/.vs/Pootis Runner/xs/UserPrefs.xml
+    projectPath: .vs/Pootis Runner/xs/UserPrefs.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assembly-CSharp.csproj
     fullPath: /home/miguel/unity projects/Pootis Runner/Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: /home/miguel/unity projects/Pootis Runner/Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/floor.physicMaterial
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/floor.physicMaterial
+    projectPath: Assets/floor.physicMaterial
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: /home/miguel/unity projects/Pootis Runner/Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Assets/floor.physicMaterial.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/floor.physicMaterial.meta
+    projectPath: Assets/floor.physicMaterial.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: com.ben-w.erp.csproj
-    fullPath: /home/miguel/unity projects/Pootis Runner/com.ben-w.erp.csproj
-    projectPath: com.ben-w.erp.csproj
+  - path: Assets/Materials/Floor.mat
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Materials/Floor.mat
+    projectPath: Assets/Materials/Floor.mat
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets/Materials/Floor.mat.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Materials/Floor.mat.meta
+    projectPath: Assets/Materials/Floor.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/New Lighting Settings.lighting
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/New Lighting Settings.lighting
+    projectPath: Assets/New Lighting Settings.lighting
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/New Lighting Settings.lighting.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/New Lighting Settings.lighting.meta
+    projectPath: Assets/New Lighting Settings.lighting.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/prefabs.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/prefabs.meta
+    projectPath: Assets/prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/prefabs/heavy.prefab
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/prefabs/heavy.prefab
+    projectPath: Assets/prefabs/heavy.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/prefabs/heavy.prefab.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/prefabs/heavy.prefab.meta
+    projectPath: Assets/prefabs/heavy.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest.meta
+    projectPath: Assets/Scenes/PlayTest.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest.unity
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest.unity
+    projectPath: Assets/Scenes/PlayTest.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest.unity.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest.unity.meta
+    projectPath: Assets/Scenes/PlayTest.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/Global Volume Profile.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/Global
+      Volume Profile.asset
+    projectPath: Assets/Scenes/PlayTest/Global Volume Profile.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/Global Volume Profile.asset.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/Global
+      Volume Profile.asset.meta
+    projectPath: Assets/Scenes/PlayTest/Global Volume Profile.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/LightingData.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/LightingData.asset
+    projectPath: Assets/Scenes/PlayTest/LightingData.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/LightingData.asset.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/LightingData.asset.meta
+    projectPath: Assets/Scenes/PlayTest/LightingData.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/ReflectionProbe-0.exr
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/ReflectionProbe-0.exr
+    projectPath: Assets/Scenes/PlayTest/ReflectionProbe-0.exr
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/PlayTest/ReflectionProbe-0.exr.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/PlayTest/ReflectionProbe-0.exr.meta
+    projectPath: Assets/Scenes/PlayTest/ReflectionProbe-0.exr.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SampleScene.unity.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/SampleScene.unity.meta
+    projectPath: Assets/Scenes/SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SampleSceneLightingSettings.lighting
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/SampleSceneLightingSettings.lighting
+    projectPath: Assets/Scenes/SampleSceneLightingSettings.lighting
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SampleSceneLightingSettings.lighting.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scenes/SampleSceneLightingSettings.lighting.meta
+    projectPath: Assets/Scenes/SampleSceneLightingSettings.lighting.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/CameraMovement.cs
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/CameraMovement.cs
+    projectPath: Assets/Scripts/CameraMovement.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/CameraMovement.cs.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/CameraMovement.cs.meta
+    projectPath: Assets/Scripts/CameraMovement.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PlayerMovement.cs
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/PlayerMovement.cs
+    projectPath: Assets/Scripts/PlayerMovement.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PlayerMovement.cs.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/PlayerMovement.cs.meta
+    projectPath: Assets/Scripts/PlayerMovement.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/SimpleCameraController.cs
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/SimpleCameraController.cs
+    projectPath: Assets/Scripts/SimpleCameraController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/SimpleCameraController.cs.meta
+    fullPath: /home/miguel/unity projects/Pootis Runner/Assets/Scripts/SimpleCameraController.cs.meta
+    projectPath: Assets/Scripts/SimpleCameraController.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/ArtifactDB
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ArtifactDB
+    projectPath: Library/ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ArtifactDB-lock
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ArtifactDB-lock
+    projectPath: Library/ArtifactDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Artifacts/27/27a4f9281a6c0116b8fba983755c9bd5
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/27/27a4f9281a6c0116b8fba983755c9bd5
+    projectPath: Library/Artifacts/27/27a4f9281a6c0116b8fba983755c9bd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/4e/4e5eabc41fdf0a8487edd98694051ea2
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/4e/4e5eabc41fdf0a8487edd98694051ea2
+    projectPath: Library/Artifacts/4e/4e5eabc41fdf0a8487edd98694051ea2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/55/555a16d05aaccd1ba51f801ce91d3f52
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/55/555a16d05aaccd1ba51f801ce91d3f52
+    projectPath: Library/Artifacts/55/555a16d05aaccd1ba51f801ce91d3f52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5d/5dbb297584fcaaf81a5938f6c288810d
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/5d/5dbb297584fcaaf81a5938f6c288810d
+    projectPath: Library/Artifacts/5d/5dbb297584fcaaf81a5938f6c288810d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/71/71207f29b9312d60c2872e1532be84c4
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/71/71207f29b9312d60c2872e1532be84c4
+    projectPath: Library/Artifacts/71/71207f29b9312d60c2872e1532be84c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/7a/7a797e7027e425222c32d4e161907445
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/7a/7a797e7027e425222c32d4e161907445
+    projectPath: Library/Artifacts/7a/7a797e7027e425222c32d4e161907445
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b1/b1ffcf00fe2ee408d51b351ca3c69d97
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/b1/b1ffcf00fe2ee408d51b351ca3c69d97
+    projectPath: Library/Artifacts/b1/b1ffcf00fe2ee408d51b351ca3c69d97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ca/ca94f5a7d0c12e03f1dc0eb609c8bd57
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/ca/ca94f5a7d0c12e03f1dc0eb609c8bd57
+    projectPath: Library/Artifacts/ca/ca94f5a7d0c12e03f1dc0eb609c8bd57
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d1/d166d63450e9435f6d623dc8bd5e4459
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/d1/d166d63450e9435f6d623dc8bd5e4459
+    projectPath: Library/Artifacts/d1/d166d63450e9435f6d623dc8bd5e4459
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d5/d5261114c7a741a11763bf652b1fecf1
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/Artifacts/d5/d5261114c7a741a11763bf652b1fecf1
+    projectPath: Library/Artifacts/d5/d5261114c7a741a11763bf652b1fecf1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/CurrentLayout-default.dwlt
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/CurrentLayout-default.dwlt
+    projectPath: Library/CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/CurrentMaximizeLayout.dwlt
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/EditorInstance.json
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/branches.yaml
     fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
@@ -64,6 +312,108 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/SceneVisibilityState.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/SceneVisibilityState.asset
+    projectPath: Library/SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ShaderCache/0/0ae847d4e2f5fe46bd860efd503dd34b.bin
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ShaderCache/0/0ae847d4e2f5fe46bd860efd503dd34b.bin
+    projectPath: Library/ShaderCache/0/0ae847d4e2f5fe46bd860efd503dd34b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/EditorEncounteredVariants
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/ShaderCache/EditorEncounteredVariants
+    projectPath: Library/ShaderCache/EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler10.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler10.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler10.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler11.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler11.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler11.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler8.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler8.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler8.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler9.log
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/shadercompiler-UnityShaderCompiler9.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler9.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/SourceAssetDB
     fullPath: /home/miguel/unity projects/Pootis Runner/Library/SourceAssetDB
     projectPath: Library/SourceAssetDB
@@ -76,9 +426,105 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/StateCache/MainStageHierarchy/71/71a45a7052e37e8afe7623d41dc7f8c1.json
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/StateCache/MainStageHierarchy/71/71a45a7052e37e8afe7623d41dc7f8c1.json
+    projectPath: Library/StateCache/MainStageHierarchy/71/71a45a7052e37e8afe7623d41dc7f8c1.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/SceneView/b9/b9251152ebcca149d85f9ff7c2177b10.json
+    fullPath: /home/miguel/unity projects/Pootis Runner/Library/StateCache/SceneView/b9/b9251152ebcca149d85f9ff7c2177b10.json
+    projectPath: Library/StateCache/SceneView/b9/b9251152ebcca149d85f9ff7c2177b10.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp.csproj.CopyComplete
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.csproj.CopyComplete
+    projectPath: obj/Debug/Assembly-CSharp.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt
+    projectPath: obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp.dll
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.dll
+    projectPath: obj/Debug/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp.pdb
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp.pdb
+    projectPath: obj/Debug/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.csproj.CopyComplete
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.csproj.CopyComplete
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.dll
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.dll
+    projectPath: obj/Debug/Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor.pdb
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor.pdb
+    projectPath: obj/Debug/Assembly-CSharp-Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -86,11 +532,131 @@ MonoBehaviour:
     fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Pootis Runner.sln
-    fullPath: /home/miguel/unity projects/Pootis Runner/Pootis Runner.sln
-    projectPath: Pootis Runner.sln
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.dll
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.dll
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.csproj.CopyComplete
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.csproj.CopyComplete
+    projectPath: obj/Debug/com.ben-w.erp.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.csproj.CoreCompileInputs.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.csproj.CoreCompileInputs.cache
+    projectPath: obj/Debug/com.ben-w.erp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.csproj.FileListAbsolute.txt
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.csproj.FileListAbsolute.txt
+    projectPath: obj/Debug/com.ben-w.erp.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.csprojAssemblyReference.cache
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/com.ben-w.erp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.dll
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.dll
+    projectPath: obj/Debug/com.ben-w.erp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/com.ben-w.erp.pdb
+    fullPath: /home/miguel/unity projects/Pootis Runner/obj/Debug/com.ben-w.erp.pdb
+    projectPath: obj/Debug/com.ben-w.erp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings/EditorSettings.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/ProjectSettings/EditorSettings.asset
+    projectPath: ProjectSettings/EditorSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/ProjectSettings.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/ProjectSettings/ProjectSettings.asset
+    projectPath: ProjectSettings/ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/ProcessJobs/9163ed6926f3fa5b46b6b3b461dfbf67.bakert
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/ProcessJobs/9163ed6926f3fa5b46b6b3b461dfbf67.bakert
+    projectPath: Temp/ProcessJobs/9163ed6926f3fa5b46b6b3b461dfbf67.bakert
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-42f21221df3c81f6bb6b65682370516d
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-42f21221df3c81f6bb6b65682370516d
+    projectPath: Temp/UnityTempFile-42f21221df3c81f6bb6b65682370516d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-49a5efd32377abc55897e60783317785
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-49a5efd32377abc55897e60783317785
+    projectPath: Temp/UnityTempFile-49a5efd32377abc55897e60783317785
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-56c405c9ab41b6bd48fb3cd6cdfe5c8a
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-56c405c9ab41b6bd48fb3cd6cdfe5c8a
+    projectPath: Temp/UnityTempFile-56c405c9ab41b6bd48fb3cd6cdfe5c8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-858c2979f7e3e1818aacbbb14b4f5bbf
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-858c2979f7e3e1818aacbbb14b4f5bbf
+    projectPath: Temp/UnityTempFile-858c2979f7e3e1818aacbbb14b4f5bbf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-a875905e3dff06075932db579655466f
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-a875905e3dff06075932db579655466f
+    projectPath: Temp/UnityTempFile-a875905e3dff06075932db579655466f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e53822a831919221eb3c0c816a633136
+    fullPath: /home/miguel/unity projects/Pootis Runner/Temp/UnityTempFile-e53822a831919221eb3c0c816a633136
+    projectPath: Temp/UnityTempFile-e53822a831919221eb3c0c816a633136
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: UserSettings/EditorUserSettings.asset
+    fullPath: /home/miguel/unity projects/Pootis Runner/UserSettings/EditorUserSettings.asset
+    projectPath: UserSettings/EditorUserSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
